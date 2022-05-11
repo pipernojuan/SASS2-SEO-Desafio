@@ -1,0 +1,12 @@
+
+-Agregué en el Head de todas las páginas la cantidad de 2 Meta. Uno referente a las keywords, y otro referente a la description del site.
+-Agregué Variables para las fuentes, margenes y algunos colores principales, y también un CONDICIONAL para el background del Body.
+
+
+-En el archivo partial "_sucursales.scss" realicé un EXTEND de la class ".mapa1" para la class ".mapa2" ya que tenían exactamente el mismo formato.
+-En el archivo partial "_redes.scss" realicé un EXTEND de la clase ".fb" para la class ".ig" ya que tenían también el mismo formato.
+
+-En el archivo partial "_redes.scss" realicé un MIXIN el cual alojé originalmente en "estilos.scss" al que llamé para la class ".delivery", realizando el cambio del valor "margin"
+por el de la variable llamada "delivery-margin".
+
+
